@@ -1,0 +1,10 @@
+p {
+    background-color: purple;
+    width: 70%;
+    float: left;
+}
+
+div {
+    background-color: grey;
+    width: 80%;
+}
