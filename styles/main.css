@@ -68,18 +68,29 @@ a:link {
   color: rgb(172,140,71);
 }
 
-  a:visited {
+a:visited {
     color: rgb(100, 81, 41);
-  }
+}
 
-  a:hover {
+a:hover {
     color: rgb(224, 182, 90);
-  }
+}
 
-  a:active {
+a:active {
     color: rgb(252, 217, 142);
-  }
+    }
+  /* ---------------------------------------------------
+                      LOGO STYLES
+----------------------------------------------------*/
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+ }
 
+.logo img {
+        width: 150px;
+  }
 /* ---------------------------------------------------
                 GLOBAL FOOTER STYLES
 ----------------------------------------------------*/
