@@ -15,7 +15,19 @@ BLACK: rgb(15,15,15)
 body {
     font-size: 19px;
     font-family: "alegreya", Calibri, Candara, "Segoe UI", Optima, Arial,sans-serif;
+    color: rgb(226,226,226);
+    background: rgb(15,15,15);
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 6% 6% 6%;
 }
+.container {
+    background: rgb(15,15,15); /* IE8 */
+    background: rgba(15,15,15,0.74);
+    padding: 30px;
+}
+
 
 h1, h2, h3 {
     font-family: "alegreya sc", Garamond, "Baskerville Old Face", "'Times New Roman', Times, serif"
@@ -37,14 +49,14 @@ h2 {
 h3 {
     font-size: 1.5263em;
     font-weight: normal;
-    line-height: 1.8821em;
-    margin-top: 0.9319em;
-    margin-bottom:0; 
+    line-height: 1.8621em;
+    margin-top: 0.9310em;
+    margin-bottom: 0;
 }
 p {
     font-size: 1em;
-    line-height: 1.1411em;
-    margin-top: 1.411em;
+    line-height: 1.4211em;
+    margin-top: 1.4211em;
     margin-bottom: 0;
 }
 
