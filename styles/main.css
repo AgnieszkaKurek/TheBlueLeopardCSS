@@ -30,7 +30,8 @@ body {
 
 
 h1, h2, h3 {
-    font-family: "alegreya sc", Garamond, "Baskerville Old Face", "'Times New Roman', Times, serif"
+    font-family: "alegreya sc", Garamond, "Baskerville Old Face", "'Times New Roman', Times, serif";
+    font-weight: normal;
 }
 
 h1 {
@@ -38,6 +39,7 @@ h1 {
     line-height: 1.2656em;
     margin-top: 0.4219em;
     margin-bottom: 0;
+    color: rgb(172, 140, 71);
 }
 
 h2 {
@@ -121,11 +123,30 @@ a:active {
  .main-navigation a:hover {
     color: rgb(255,255,255);
     transition: .5s color;
+    background: rgba(62, 61, 61, 0.51);
  }
 
  .main-navigation a:active  {
     color: rgb(172,140,71);
  }
+ /* ---------------------------------------------------
+                   HOME PAGE STYLES
+----------------------------------------------------*/
+
+.featured-info h3 {
+  border-bottom: 1px solid rgb(128,128,128);
+}
+
+.featured-info p {
+  font-style: italic;
+}
+
+.featured-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
 
 
 /* ---------------------------------------------------
