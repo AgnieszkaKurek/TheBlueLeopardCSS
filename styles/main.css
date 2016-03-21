@@ -96,9 +96,25 @@ a:active {
 }
 .button a:hover {
    background-color: rgb(119,97,48);
-     border-radius: 8px;
-    
+     border-radius: 8px;   
 }
+
+.featured-info h3 {
+  border-bottom: 1px solid rgb(128,128,128);
+}
+
+.featured-info p {
+  font-style: italic;
+}
+
+.featured-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+.gallery {
+    margin-top: 30px;
+}
+
   /* ---------------------------------------------------
                       LOGO STYLES
 ----------------------------------------------------*/
@@ -147,22 +163,20 @@ a:active {
  .main-navigation a:active  {
     color: rgb(172,140,71);
  }
+ 
+ @media screen and (min-width:750px) {
+  .main-navigation a:visited {
+      color:red;
+  }   
+ } /* media query for */
  /* ---------------------------------------------------
-                   HOME PAGE STYLES
-----------------------------------------------------*/
-
-.featured-info h3 {
-  border-bottom: 1px solid rgb(128,128,128);
+                   MENU PAGE STYLES
+----------------------------------------------------* /
+.menu-page.featured-info ul {
+    font-style: italic;
+    
 }
 
-.featured-info p {
-  font-style: italic;
-}
-
-.featured-info ul {
-  list-style: none;
-  padding-left: 0;
-}
 
 
 
