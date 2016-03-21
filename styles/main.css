@@ -22,6 +22,11 @@ body {
     background-size: cover;
     padding: 2% 6% 6% 6%;
 }
+@media screen and (min-width:750px) {
+    body {
+        font-size:1.4em;
+}
+}
 .container {
     background: rgb(15,15,15); /* IE8 */
     background: rgba(15,15,15,0.74);
@@ -60,6 +65,8 @@ p {
     line-height: 1.4211em;
     margin-top: 1.4211em;
     margin-bottom: 0;
+     font-weight: 100;
+    
 }
 
 
@@ -115,6 +122,15 @@ a:active {
     margin-top: 30px;
 }
 
+@media screen and (min-width: 750px) {
+  
+  .landing {
+    text-align: center;
+  }
+  
+}
+
+
   /* ---------------------------------------------------
                       LOGO STYLES
 ----------------------------------------------------*/
@@ -150,38 +166,40 @@ a:active {
   color: rgb(180,180,180);
 }
 
-.main-navigation a:visited {
+  .main-navigation a:visited {
     color: rgb(106,106,106);
- }
+  }
 
- .main-navigation a:hover {
+  .main-navigation a:hover {
     color: rgb(255,255,255);
     transition: .5s color;
     background: rgba(62, 61, 61, 0.51);
- }
+  }
 
- .main-navigation a:active  {
+  .main-navigation a:active {
     color: rgb(172,140,71);
- }
- 
- @media screen and (min-width:750px) {
- .main-navigation {
-     min-height: 80px;
-     border-top: 1px solid rgb(36, 36, 36);
-      border-bottom: 1px solid rgb(36,36,36);
- }
-    .main-navigation ul {
-        max-width: 950%;
-        margin-top: 0 auto;
-        
-        
-    }   
-        .main-navigation li {
-            float: left;
-            margin-left: 20px;
-            width: 28%;
-         } 
-   .main-navigation a {
+  }
+
+@media screen and (min-width: 750px){
+  
+  .main-navigation {
+    min-height: 100px;
+    border-top: 1px solid rgb(36,36,36);
+    border-bottom: 1px solid rgb(36,36,36);
+  }
+  
+  .main-navigation ul {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  
+    .main-navigation li {
+      float: left;
+      margin-left: 20px;
+      width: 28%;
+    }
+  
+    .main-navigation a {
       background: none;
     }
   
@@ -195,11 +213,12 @@ a:active {
   .main-navigation ul {
     position: relative;
     right: -30px ;
- }
-}/* media query for 880px */
+  }
+  
+}/* media query for 880px  */
  /* ---------------------------------------------------
                    MENU PAGE STYLES
-----------------------------------------------------* /
+----------------------------------------------------*/
 .menu-page.featured-info ul {
     font-style: italic;
     
