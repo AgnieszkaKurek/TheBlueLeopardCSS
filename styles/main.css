@@ -65,8 +65,11 @@ p {
     line-height: 1.4211em;
     margin-top: 1.4211em;
     margin-bottom: 0;
-     font-weight: 100;
-    
+    font-weight: 100;
+ }
+
+li {
+    font-weight: 100;
 }
 
 
@@ -91,6 +94,7 @@ a:active {
 .button {
     background-color: rgb(172,140,71);
     border-radius: 8px;
+    max-width: 250px;
 }
 .button a {
     color: rgb(226, 226, 226);
@@ -117,6 +121,14 @@ a:active {
 .featured-info ul {
   list-style: none;
   padding-left: 0;
+}
+@media screen and (min-width:1050px) {
+  .featured-info {
+      float: left;
+      width: 30%;
+      margin-left: 3%;
+      
+  }  
 }
 .gallery {
     margin-top: 30px;
